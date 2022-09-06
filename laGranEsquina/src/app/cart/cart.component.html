@@ -1,0 +1,19 @@
+<h1>Carrito de compras</h1>
+<br>
+<table>
+  <div class="content">
+    <tr>
+      <th>Nombre</th>
+      <th>Precio</th>
+      <th>Cantidad</th>
+    </tr>
+    <div class="item" *ngFor="let item of cart">
+      <tr>
+        <td> {{item.name}}</td>
+        <td> {{item.price}} </td>
+        <td> {{item.quantity}}</td>
+      <tr>
+    </div>
+
+  </div>
+</table>

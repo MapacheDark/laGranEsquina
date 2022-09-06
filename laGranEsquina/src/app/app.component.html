@@ -1,0 +1,7 @@
+
+<router-outlet></router-outlet>
+<div class="content">
+    <div class="product" *ngFor="let product of products">
+        <products [products]="product"></products>
+    </div>
+</div>
